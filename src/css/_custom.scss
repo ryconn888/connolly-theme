@@ -1,0 +1,47 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+/* Typography */
+
+@font-face {
+font-family: 'OpenSansLight';
+src:url('fonts/OpenSans-CondLight.ttf') format('truetype')
+}
+@font-face {
+font-family: 'OpenSansBold';
+src:url('fonts/OpenSans-CondBold.ttf') format('truetype')
+}
+
+h1 {
+	color: black;
+	font-size: 45px;
+	font-family: 'OpenSansBold'
+}
+
+
+.hero-img {
+	background-image: url("images/HeroImg.jpg");
+	height: 500px;
+	margin-top: -90px;
+}
+
+#header-wrapper {
+	width: 100;
+}
+
+#header-right-black {
+	background-color: #000;
+	height: 100px;
+	width: 50%;
+	position: absolute;
+
+}
+
+
+body {
+	background-color: #F2F2F2;
+}
